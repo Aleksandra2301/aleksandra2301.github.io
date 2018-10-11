@@ -12,13 +12,13 @@ return elements; }
 
 function f11()
 {
-	A=parseFloat($('tx1').value);
-	B=parseFloat($('tx2').value);
+	A=parseFloat($('tx11').value);
+	B=parseFloat($('tx22').value);
 	result='';
 	for(var i=A; i<=B; i++)
 	{
 		for(var j=1; j<= i; j++)
 			result=result+i;
 	}
-	$('tx4').value=result;
+	$('tx44').value=result;
 }
