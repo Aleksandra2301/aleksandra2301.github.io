@@ -16,7 +16,7 @@ var g1= 255;
 var b1= 0;
 function f()
 {	
-var x1 = document.getElementById('b1');
+var x1 = document.getElementById('b11');
 
 x1.style.left=(parseInt(x1.style.left)-30)+'px';
 x1.style.down=(parseInt(x1.style.top)+50)+'px';
@@ -31,7 +31,7 @@ x1.style.backgroundColor= color;
 
 function r()
 {
-var x = document.getElementById('b1');
+var x = document.getElementById('b11');
 x.style.left = "1000px";
 t = setInterval('f()',100);
 }
